@@ -1,0 +1,755 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background-color: #f1f1f1;
+}
+
+.container-fluid{
+  background-color: white;
+  height: 60px;
+}
+
+.location{
+  color: #00A9D3;
+}
+
+
+/* OverView section  */
+.over{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  background-color: white;
+  height: 60px;
+  padding: 16px 32px;
+  position: relative;
+  left: 10px;
+  top: -20px;
+}
+
+.overview{
+  margin-left: 32px;
+  height: 55px;
+  line-height: 65px;
+ display: flex;
+  font-weight: bold;
+  padding-left: 15px;
+  border-top: 1px;
+  font-size: 28px;
+  position: absolute;
+}
+
+.overview-icon{
+  display: flex;
+  color: #00A9D3;
+
+}
+
+@media (max-width: 768px) {
+  .overview-div {
+    right: 10px;
+    top: 10px;
+  }
+
+  .overview-icon {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .overview-div {
+    width: 30px;
+    height: 30px;
+  }
+
+  .overview-icon {
+    font-size: 20px;
+  }
+}
+
+.head-h2{
+  position: relative;
+  left: -20px;
+}
+
+.icon-color{
+  color: #00A9D3;
+  margin-right: 6px;
+}
+
+.inspected-tire{
+  color: #AAB0B3;
+  margin-right: 6px;
+}
+
+/* Sidebar */
+.whole-sidebar{
+  position: fixed;
+}
+.sidebar {
+  width: 55px;
+  height: 117vh;
+  background-color:white;
+  padding: 20px;
+  position: absolute;
+  top: -215px;
+}
+
+.plus-icon{
+  position: relative;
+  top: 34px;
+  right: 16px;
+}
+
+.plus{
+  color: #00A9D3;
+  position: relative;
+  right: -8px;
+  top: 7px; 
+  font-size: 25px; 
+}
+
+.house-icon{
+  height: 40px;
+  width: 40px; 
+  border: 1.5px solid whitesmoke;
+  border-radius: 9px;
+  position: relative;
+  top: 53px;
+  right: 13px;
+}
+
+.house{
+  color: white;
+  position: relative;
+  right: 5px;
+  top: -6px; 
+  font-size: 18px;
+}
+
+.upAndDownArrow-icon{
+  position: relative;
+  top: 90px;
+  right: 8px;
+  transform: rotate(-90deg);
+}
+
+.upAndDownArrow{
+  transform: rotate(90deg);
+  height: 24px;
+  width: 24px;
+  position: relative;
+  right: -8px;
+  top: 8px;
+}
+
+.movements{
+  position: relative;
+  right: 14px;
+}
+
+.UpandDownArrow-movement{
+  transform: rotate(180deg);
+  height: 20px;
+  width: 20px;
+  position: relative;
+  right: 5px;
+  top: -3px;
+}
+
+.sidebar-location-div{
+  position: relative;
+  top: 98px;
+  right: 14px;
+}
+
+.sidebar-location{
+  color: #00A9D3;
+  position: relative;
+  right: -10px;
+  top: 10px;
+}
+
+.FD-icon{
+  height: 30px;
+  width: 30px;
+  border: 1.5px solid whitesmoke;
+  background-color: #dff4fb;
+  position: relative;
+  top: 390px;
+  right: 11px;
+  border-radius:30px ;
+}
+
+.FD{
+  position: relative;
+  top: 7px;
+  left: 5px;
+}
+
+.gear{
+  color:#00A9D3;
+  position: relative;
+  right:6px;
+  top: 370px; 
+  font-size: 23px; 
+}
+
+.logo {
+  position: relative;
+  left: 15px;
+}
+
+.gate{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.go{
+  font-weight: bold;
+  color: #00A9D3;
+  font-family: 'Futura', 'Arial', sans-serif;
+}  
+
+    /* Card Header */
+    .card-header h2 {
+      /* color: #0d6efd; */
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    /* Card Styling */
+
+
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+.header-actions button {
+  background-color: #e5e5e5;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  height: 60px;
+  padding: 16px 32px;
+  position: relative;
+  left: 10px;
+}
+
+/* Left section (logo) */
+.navbar-left .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00A9D3;
+  margin-left: 32px;
+}
+
+/* Right section (dropdowns) */
+.navbar-right {
+  display: flex;
+  gap: 20px;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #717B80;
+  cursor: pointer;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Icon styles */
+.icon i {
+  font-size: 16px;
+  color: #00A9D3;
+}
+
+.dropdown i {
+  margin-left: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .navbar-right {
+    gap: 10px;
+  }
+}  
+
+
+/* Movements Card Styling */
+.movements-card {
+  /* width: 30vw; */
+  width: 420px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  color: #717B80;
+  height: 160px;
+  position: relative;
+  left: 80px;
+  top: -40px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of child elements */
+  position: relative;
+  left: 0; /* Reset position to avoid unwanted overflow */
+  gap: 15px;
+}
+
+.movements-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.movements-icon {
+  font-size: 18px; /* Adjust icon size for tighter look */
+  color: #00A9D3;
+}
+
+.movements-header h2 {
+  font-size: 14px; 
+  font-weight: bold;
+  margin: 0;
+}
+
+.view-all {
+  font-size: 12px; 
+  color: #00A9D3;
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 10px 0; /* Reduce spacing around the line */
+}
+
+.movement-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.movement-text {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* Reduce gap between text and icon */
+  font-size: 14px;
+  color: #717B80;
+}
+
+.movement-arrow {
+  font-size: 14px;
+  color: #00A9D3;
+}
+
+.movement-value {
+  font-size: 14px;
+  color:  #333;
+  text-align: right;
+}
+
+.movement-value-main{
+  font-size: 16px;
+  color: #717B80;
+  text-align: right;
+  margin-right: 3px;
+  line-height: 19px;
+}
+
+.ash{
+  color: #AAB0B3;
+  margin-left: 4px;
+}
+
+Media Queries for Responsive Behavior
+@media (min-width: 600px) {
+  .movements-card {
+    width: 30%; 
+    max-width: 500px; 
+  }
+}
+
+@media (min-width: 768px) {
+  .movements-card {
+    width: 30%;
+    max-width: none; 
+    padding: 15px; 
+  }
+
+  .movements-header h2 {
+    font-size: 16px; 
+    }
+
+  .movement-text {
+    font-size: 15px;
+  }
+
+  .movement-value {
+    font-size: 15px; 
+  }
+}
+
+@media (min-width: 1024px) {
+  .movements-card {
+    width: 30%; 
+    padding: 20px; 
+  }
+}
+
+/* Yard capacity  */
+
+.yard-card {
+  width: 30%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 24px 20px;
+  color: #717B80;
+  height: 400px;
+  margin-top: 30px;
+  margin-right: 13px;
+  display: inline-block;
+  position: relative;
+  left: 80px;
+  top: -108px;
+}
+
+.movements-card {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  color: #717B80;
+  height: 160px;
+  margin-top: 30px;
+  overflow-x: hidden;
+}
+
+/* Header */
+.yard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.yard-icon {
+  font-size: 20px;
+  color: #00A9D3;
+}
+
+.yard-header h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Divider */
+hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 10px 0;
+}
+
+/* Usage Section */
+.usage-section h3 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.usage-stats {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.usage-percent {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00A9D3;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 8px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar-main {
+  flex: 1;
+  height: 25px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #00A9D3;
+  border-radius: 5px;
+  width: 40%; /* Adjust width dynamically */
+}
+
+.usage-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #666;
+}
+
+.blue{
+  color: #00A9D3;
+}
+.size{
+  font-size: 10px;
+}
+.gray{
+  color: #ECEDEE;
+}
+
+.spot-used, .max-capacity{
+  font-size: 16px;
+}
+
+.max-capacity{
+  color: #717B80;
+  margin-right: 40px;
+}
+
+/* Yards Section */
+.yards-section h3 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.yard {
+  margin-bottom: 15px;
+  /* position: relative;
+  top: 35px;
+  margin-bottom: 25px; */
+}
+
+.yard-location {
+  font-size: 14px;
+  color: #717B80;
+  gap: 5px;
+  position: relative;
+  top: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.yard-location i {
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+  
+}
+
+.yard-capacity {
+  font-size: 14px;
+  color:  #717B80;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.yard .progress-bar {
+  height: 6px;
+}
+
+.yard .progress-fill {
+  height: 100%;
+  background-color: #00A9D3;
+  width: 0%; /* Adjust dynamically */
+}
+
+
+/* Issues Style */
+/* General Card Styling */
+.issue-card {
+  width: 30%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 24px 20px;
+  color: #717B80;
+  height: 400px;
+  margin-top: 30px;
+  margin-right: 13px;
+  display: inline-block;
+  position: relative;
+  left: 80px;
+  top: -53px;
+}
+
+/* Header Styling */
+.issue-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.header-title h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+/* Divider */
+hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 10px 0;
+}
+
+/* Open Issues Section */
+.open-issues {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.open-issues h3 {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.issue-txt{
+  font-size: 12px;
+  color: #333;
+}
+
+.issues-count {
+  background-color: #dff4fb;
+  color: #00A9D3;
+  font-size: 12px;
+  padding: 2px 3px;
+  border-radius: 5px;
+  position: absolute;
+  right: 18px;
+}
+
+.recent{
+  font-size: 14px;
+  color: #717B80;
+  margin-top: 9px;
+}
+
+/* Issues List */
+.issues-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.issue {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.issue-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.issue-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.issue-id {
+  font-size: 12px;
+  font-weight: bold;
+  color: #717B80;
+}
+
+.issue-description {
+  font-size: 12px;
+  color: #717B80;
+}
+
+.issue-alert {
+  font-size: 14px;
+  color: #d82003; /* Red alert color */
+}
+.issue-alert-ash{
+  font-size: 14px;
+  color: #AAB0B3;
+}
+
+
+.light-ash{
+  color: #717B80;
+}
